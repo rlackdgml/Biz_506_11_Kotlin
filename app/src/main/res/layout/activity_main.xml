@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- textInputText 의 옛날 버전
+         키보드로 글자를 입력받는 input box.-->
+    <EditText
+        android:id="@+id/txt"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <!-- label 과 같은 형태로 문자열등을 app 화면 에 보이는용도 -->
+    <TextView
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16px"
+        android:textSize="20sp"
+        android:text="Hello World!"/>
+</LinearLayout>
